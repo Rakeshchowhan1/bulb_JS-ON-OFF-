@@ -1,0 +1,29 @@
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url('./images/bg_picture.jpg');
+  background-size: cover;
+}
+h1{
+  color: red;
+  font-size: 24px;
+  font-family: sans-serif;
+}
+
+button{
+  background-color: rgb(248, 252, 24);
+  color: #000;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border: 1px solid #000;
+}
+.main{
+  text-align: center;
+  margin-top: 20px;
+}
+button:hover{
+  background-color: rgb(146, 243, 142);
+}
+button:active{
+  background-color: rgb(146, 243, 142);
+}
